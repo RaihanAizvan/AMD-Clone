@@ -31,7 +31,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: ;
+    
     width: 100%;
     height: 93%;
     column-gap: 30px;
@@ -52,7 +52,7 @@
     /* background-color: white; */
 }
 .featured-inside-div .products-flex-container-div .flex-item .image-1{
-    background: url(/AMD/Drawables/Images/bc-product\(1\).jpg);
+    background: url(Drawables/Images/bc-product\(1\).jpg);
     background-size: cover;
 }
 .image-1 h5{
@@ -60,16 +60,16 @@
 
 }
 .featured-inside-div .products-flex-container-div .flex-item .image-2{
-    background: url(/AMD/Drawables/Images/2201103-amd-desktop-products.jpg);
+    background: url(Drawables/Images/2201103-amd-desktop-products.jpg);
     background-size: cover;
 }
 .featured-inside-div .products-flex-container-div .flex-item .image-3{
-    background: url(/AMD/Drawables/Images/1913654-radeon-rx-7000-series-graphics-cards.jpg);
+    background: url(Drawables/Images/1913654-radeon-rx-7000-series-graphics-cards.jpg);
     background-size: cover;
 }
-.featured-inside-div .products-flex-container-div .processors h4{
+/* .featured-inside-div .products-flex-container-div .processors h4{
 
-}
+} */
 .featured-inside-div .products-flex-container-div .flex-item h4{
     width: 100%;
     height: 25px;
