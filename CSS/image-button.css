@@ -1,0 +1,22 @@
+.image-button-div{
+    width: 100%;
+    height: 120px;
+    background-color: red;
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-evenly;
+   
+    
+}
+.image-button-div .buttons-container-div{
+    background-color:rgb(255, 230, 0);
+    height: 50px;
+    width: 20%;
+    margin-top: 20px;
+    
+}
+.image-button-div .buttons-container-div p{
+    width: 50%;/*change this according to the length of text after layout completion*/
+    height: 45%;
+    background-color: blue;
+}

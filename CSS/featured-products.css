@@ -1,0 +1,67 @@
+.featured-product-continer-div{    
+    width: 100%;
+    height: 710px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+}
+.featured-product-continer-div .featured-product-div{
+    width: 83.33%;
+    height: 100%;
+    background-color: rgb(204, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featured-product-continer-div .featured-product-div .featured-inside-div{
+    width: 90%;
+    height: 84%;
+    background-color: rgb(255, 255, 255);
+}
+.featured-product-continer-div .featured-product-div .featured-inside-div .heading-div{
+    width: 100%;
+    height: 7%;
+    background-color: rgb(106, 141, 25);
+}
+.featured-product-div .featured-inside-div .products-flex-container-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(0, 119, 0);
+    width: 100%;
+    height: 93%;
+    column-gap: 30px;
+}
+
+.featured-product-div .featured-inside-div .products-flex-container-div .flex-item{
+    width: 33%;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+.featured-inside-div .products-flex-container-div .flex-item .image{
+    width: 100%;
+    height: 62%;
+    background-color: white;
+}
+.featured-inside-div .products-flex-container-div .flex-item h4{
+    width: 100%;
+    height: 25px;
+    background-color: black;
+}
+.featured-inside-div .products-flex-container-div .flex-item h5{
+    width: 100%;
+    height: 25px;
+    background-color: blue;
+}
+.featured-inside-div .products-flex-container-div .flex-item .button-div{
+    width: 26%;
+    height: 60px;
+    background-color: rgb(102, 255, 0);
+    margin-bottom: 30px;
+}
