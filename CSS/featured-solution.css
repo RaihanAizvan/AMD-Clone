@@ -40,7 +40,7 @@
     width: 100%;
     height: 400px;
     /* background-color: rgb(255, 0, 0); */
-    background: url(Drawables/Images/1973233-media-entertainment-featured.jpg);
+    background: url(../Drawables/Images/1973233-media-entertainment-featured.jpg);
     position: relative;
     background-size: contain
 }

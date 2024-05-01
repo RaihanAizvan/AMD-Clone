@@ -3,7 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     color: rgb(255, 255, 255);
-    background: url(Drawables/Images/1579650-twa-ai.jpg);
+    background: url(../Drawables/Images/1579650-twa-ai.jpg);
     background-attachment: fixed;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }

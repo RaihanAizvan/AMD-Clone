@@ -1,6 +1,6 @@
 .image-container-div {
   width: 100%;
-  background: url("Drawables/Images/advanving-ai-video-poster.jpg");
+  background: url("../Drawables/Images/advanving-ai-video-poster.jpg");
   height: 614px;
   display: flex;
   flex-direction: column;

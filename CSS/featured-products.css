@@ -52,7 +52,7 @@
     /* background-color: white; */
 }
 .featured-inside-div .products-flex-container-div .flex-item .image-1{
-    background: url(Drawables/Images/bc-product\(1\).jpg);
+    background: url(../Drawables/Images/bc-product\(1\).jpg);
     background-size: cover;
 }
 .image-1 h5{
@@ -60,11 +60,11 @@
 
 }
 .featured-inside-div .products-flex-container-div .flex-item .image-2{
-    background: url(Drawables/Images/2201103-amd-desktop-products.jpg);
+    background: url(../Drawables/Images/2201103-amd-desktop-products.jpg);
     background-size: cover;
 }
 .featured-inside-div .products-flex-container-div .flex-item .image-3{
-    background: url(Drawables/Images/1913654-radeon-rx-7000-series-graphics-cards.jpg);
+    background: url(../Drawables/Images/1913654-radeon-rx-7000-series-graphics-cards.jpg);
     background-size: cover;
 }
 /* .featured-inside-div .products-flex-container-div .processors h4{
