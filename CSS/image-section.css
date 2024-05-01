@@ -1,55 +1,74 @@
-.image-container-div{
-    width: 100%;
-    /* background-image: linear-gradient(270deg,transparent,transparent 50%,#000),linear-gradient(180deg,transparent,transparent 85%,#000); */
-    background-color: aqua;
-    height: 614px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+.image-container-div {
+  width: 100%;
+  background: url("/AMD/Drawables/Images/advanving-ai-video-poster.jpg");
+  height: 614px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: white; */
+  justify-content: flex-end;
+  align-items: center;
 }
-.text-container-div{
-    background-color: rgb(165, 42, 149);
-    height: 135px;
-    width: 94%;
+.image-container-div .overlay {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(270deg, transparent, transparent 50%, #000),
+    linear-gradient(180deg, transparent, transparent 85%, #000);
 }
-.text-container-div .left-section{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    border:6px solid red;
+.text-container-div {
+  /* background-color: rgb(165, 42, 149); */
+  height: 135px;
+  width: 94%;
 }
-.text-container-div .left-section h1{
-    height: 58px;
-    background-color: bisque;
-    width: 96%;
+.text-container-div .left-section {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* border:6px solid red; */
 }
-.text-container-div .left-section p{
-    height: 35px;
-    background-color: cornflowerblue;
-    width: 96%;
+.text-container-div .left-section h1 {
+  height: 100%;
+  font-size: 54px;
+  /* background-color: bisque; */
+  width: 96%;
 }
-.learn-more-button-div{
-    background-color: rgb(94, 255, 0);
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    width: 94%;
+.text-container-div .left-section p {
+  height: 60px;
+  /* background-color: cornflowerblue; */
+  width: 96%;
+  font-size: 22px;
 }
-.learn-more{
-    height: 80%;
-    width: 157px;
-    background-color: blue;
-    margin-left: 17px;
+.learn-more-button-div {
+  /* background-color: rgb(94, 255, 0); */
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 94%;
 }
-.pause-button{
-    height: 50px;
-    width: 50px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 50%;
-    margin-top: 8px;
-    margin-right:8px ;
+
+.learn-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 157px;
+  background: linear-gradient(
+    79.54deg,
+    rgba(50, 50, 50, 0.3) 16.78%,
+    rgba(90, 90, 90, 0.3) 46.33%,
+    hsla(0, 0%, 64%, 0.3) 73.76%,
+    hsla(0, 0%, 85%, 0.3) 94.21%
+  );
+  box-shadow: -1px 1px 0 #000, inset -1px 1px 0 hsla(0, 0%, 100%, 0.2);
+  margin-left: 17px;
+}
+.pause-button {
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-top: 8px;
+  margin-right: 8px;
 }
